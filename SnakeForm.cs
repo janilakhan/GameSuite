@@ -58,7 +58,7 @@ namespace GameConsole
 
             try
             {
-                player = new SoundPlayer(GameConsole.Properties.Resources.snakeBG);
+                player = new SoundPlayer(GameConsole.Properties.Resources.snakeTheme);
                 player.PlayLooping();
             }
             catch (Exception e)

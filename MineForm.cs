@@ -53,7 +53,7 @@ namespace GameConsole
             // Background music
             try
             {
-                player = new SoundPlayer(GameConsole.Properties.Resources.minesweeperBG);
+                player = new SoundPlayer(GameConsole.Properties.Resources.mineTheme);
                 player.PlayLooping();
             }
             catch (Exception e)

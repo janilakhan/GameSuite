@@ -60,7 +60,7 @@ namespace GameConsole
             // Background music
             try
             {
-                player = new SoundPlayer(GameConsole.Properties.Resources.tetrisBG);
+                player = new SoundPlayer(GameConsole.Properties.Resources.tetrisTheme);
                 player.PlayLooping();
             }
             catch(Exception e)
